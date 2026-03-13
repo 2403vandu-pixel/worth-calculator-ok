@@ -45,7 +45,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7207313144293144" crossOrigin="anonymous"></script>
+        <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7207313144293144" crossOrigin="anonymous"></script> -->
         <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       </head>
       <body style={{ fontFamily: "'DM Sans', system-ui, sans-serif" }}>
@@ -57,9 +57,9 @@ export default function RootLayout({
           <div style={{ maxWidth: 680, margin: '0 auto', padding: '0 16px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 20, flexWrap: 'wrap' }}>
             {[
               { href: 'https://offerselect.zippland.com/', label: 'OfferSelect' },
-              { href: 'https://citycompare.zippland.com/', label: '城市对比' },
-              { href: 'https://snapsolver.zippland.com/', label: 'AI笔试' },
-              { href: 'https://perlerbeads.zippland.com/', label: '拼豆图纸' },
+              <!-- { href: 'https://citycompare.zippland.com/', label: '城市对比' }, -->
+             <!-- { href: 'https://snapsolver.zippland.com/', label: 'AI笔试' }, -->
+              <!-- { href: 'https://perlerbeads.zippland.com/', label: '拼豆图纸' }, -->
             ].map(({ href, label }) => (
               <a key={label} href={href} target="_blank" rel="noopener noreferrer"
                 style={{ fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none', fontWeight: 500 }}>
