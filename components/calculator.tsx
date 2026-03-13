@@ -404,14 +404,7 @@ const SalaryCalculator = () => {
         {/* Nav row */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16, flexWrap: 'wrap', marginBottom: 12 }}>
           
-          <span style={{ width: 1, height: 12, background: 'var(--border-strong)' }} />
-          <a href="https://github.com/zippland/worth-calculator" target="_blank" rel="noopener noreferrer"
-            style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 13, color: 'var(--text-tertiary)', textDecoration: 'none' }}
-            className="hover:!text-blue-500">
-            <Github size={13} />
-            GitHub
-          </a>
-          <span style={{ width: 1, height: 12, background: 'var(--border-strong)' }} />
+    
           {isBrowser && (
             <button onClick={() => setShowHistory(!showHistory)}
               style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 13, color: 'var(--text-tertiary)', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
