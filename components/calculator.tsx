@@ -403,7 +403,14 @@ const SalaryCalculator = () => {
 
         {/* Nav row */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16, flexWrap: 'wrap', marginBottom: 12 }}>
-          
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16, flexWrap: 'wrap', marginBottom: 12 }}>
+          <a href="https://github.com/zippland/worth-calculator" target="_blank" rel="noopener noreferrer"
+            style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 13, color: 'var(--text-tertiary)', textDecoration: 'none', transition: 'color 0.12s' }}
+            className="hover:!text-blue-500">
+            <Star size={13} />
+            {t('star_request')}
+          </a>
+          <span style={{ width: 1, height: 12, background: 'var(--border-strong)' }} />  
     
           {isBrowser && (
             <button onClick={() => setShowHistory(!showHistory)}
