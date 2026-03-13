@@ -52,22 +52,7 @@ export default function RootLayout({
           {children}
         </LanguageProvider>
         <Analytics />
-        <footer style={{ borderTop: '1px solid var(--border)', background: 'var(--surface)', padding: '20px 0 24px', marginTop: 16 }}>
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '0 16px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 20, flexWrap: 'wrap' }}>
-            {[
-              { href: 'https://offerselect.zippland.com/', label: 'OfferSelect' },
-              { href: 'https://citycompare.zippland.com/', label: '城市对比' }, 
-             { href: 'https://snapsolver.zippland.com/', label: 'AI笔试' }, 
-               { href: 'https://perlerbeads.zippland.com/', label: '拼豆图纸' }, 
-            ].map(({ href, label }) => (
-              <a key={label} href={href} target="_blank" rel="noopener noreferrer"
-                style={{ fontSize: 12, color: 'var(--text-tertiary)', textDecoration: 'none', fontWeight: 500 }}>
-                {label}
-              </a>
-            ))}
-            <span style={{ fontSize: 11, color: 'var(--text-tertiary)', opacity: 0.6 }}>by zippland.com</span>
-          </div>
-        </footer>
+       
       </body>
     </html>
   );
